@@ -1,0 +1,2 @@
+# lightspeed-build
+chatgpt
