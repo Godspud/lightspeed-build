@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Content Filter",
+  "version": "1.0",
+  "description": "Blocks websites based on domain or keyword filtering.",
+  "permissions": ["webRequest", "webRequestBlocking", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
